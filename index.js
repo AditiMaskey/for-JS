@@ -36,3 +36,25 @@ console.log("Age:", age);
 
 // let undeclared = "Something";
 
+
+// Assignment for ya!!!
+
+const fName = document.getElementById("name").value;
+
+const email = document.getElementById("email").value;
+
+const printDatas = () => {
+
+
+    console.log("The name is:", fName);
+    console.log("The email address is " + email);
+    
+    //    document.write(fName);
+    //    document.write(email);
+}
+
+
+const clearAll = () => {
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+}
